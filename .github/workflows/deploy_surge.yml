@@ -1,5 +1,4 @@
----
-    # This is a basic workflow to help you get started with Actions
+# This is a basic workflow to help you get started with Actions
     
     name: Deploy Expense Tracker With Surge 
     
@@ -43,6 +42,4 @@
           run: npm install --global surge
        
         - name: deployment using surge
-          run: surge ./build http://expense-tracker-01.surge.sh/ --token ${{secrets.expense_tracker_app_token}}
-    
-    ...
+          run: surge ./build http://expense-tracker-01.surge.sh/ --token ${{secrets.MY_SURGE_TOKEN}}
