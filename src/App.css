@@ -10,6 +10,9 @@
 
 body {
   background-color: #dae6ec;
+  background: url(https://inext.pk/wp-content/uploads/2017/09/Website-Design-Background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1707px 830px;
   display: flex;
   flex-direction: column;
   align-items: center;
